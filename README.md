@@ -10,3 +10,7 @@ Author:Chua Xin Ying
 
 ### Lab 3 Search Engineering: lab03_search_engineering_worked.ipnb
 -Turned the code into a tested package: all five algorithms return the same `SearchResult`, 8 unit tests pass without any dataset, and a command-line tool reproduces the Lab 2 route. A* matched UCS on cost every time with far fewer expansions, and GBFS was costlier on 7 of 10.
+
+### Lab 4 Fuzzy Logic and ANFIS: lab04_fuzzy_anfis_worked.ipynb
+
+-Built a Mamdani fuzzy controller (temperature and humidity to ventilation %) and a Sugeno ANFIS for CO prediction on the UCI Air Quality data.
