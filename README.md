@@ -14,3 +14,6 @@ Author:Chua Xin Ying
 ### Lab 4 Fuzzy Logic and ANFIS: lab04_fuzzy_anfis_worked.ipynb
 
 -Built a Mamdani fuzzy controller (temperature and humidity to ventilation %) and a Sugeno ANFIS for CO prediction on the UCI Air Quality data.
+
+#### Lab 5 Robotics Sensor Control: lab05_robotics_sensor_control_worked.ipynb
+-Learned a wall-following controller for a SCITOS G5 robot from 24 ultrasonic sensors. A four-sensor decision tree gave readable rules at about 92% accuracy (0.90 macro F1) versus 99% for a random forest on all sensors, but its F1 fell to 0.71 under 10% sensor noise.
