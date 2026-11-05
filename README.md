@@ -17,3 +17,6 @@ Author:Chua Xin Ying
 
 #### Lab 5 Robotics Sensor Control: lab05_robotics_sensor_control_worked.ipynb
 -Learned a wall-following controller for a SCITOS G5 robot from 24 ultrasonic sensors. A four-sensor decision tree gave readable rules at about 92% accuracy (0.90 macro F1) versus 99% for a random forest on all sensors, but its F1 fell to 0.71 under 10% sensor noise.
+
+#### Lab 6 Handwriting OCR Evaluation: lab06_handwriting_ocr_worked.ipynb
+-Benchmarked Tesseract OCR on 89 handwritten medicine-name images. Raw images gave 0% exact match, 0.875 character error rate and 39 blank predictions; a grayscale, border and resize pipeline cut blanks to 15 and CER to 0.788, but only 1 of 89 names was read exactly, because the engine still can't handle cursive.
