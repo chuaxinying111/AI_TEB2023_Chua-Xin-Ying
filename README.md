@@ -20,3 +20,6 @@ Author:Chua Xin Ying
 
 #### Lab 6 Handwriting OCR Evaluation: lab06_handwriting_ocr_worked.ipynb
 -Benchmarked Tesseract OCR on 89 handwritten medicine-name images. Raw images gave 0% exact match, 0.875 character error rate and 39 blank predictions; a grayscale, border and resize pipeline cut blanks to 15 and CER to 0.788, but only 1 of 89 names was read exactly, because the engine still can't handle cursive.
+
+### Lab 7 Airline Tweet Sentiment Classification: lab07_airline_sentiment_worked.ipynb
+-Built a three-class sentiment classifier on 14,285 deduplicated airline tweets with a leakage-safe 70/15/15 split. Tuned Multinomial Naive Bayes (unigrams + bigrams, α = 0.3) reached 0.698 macro F1 on the test set versus 0.259 for the majority baseline, with neutral tweets the weakest class.
