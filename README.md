@@ -23,3 +23,6 @@ Author:Chua Xin Ying
 
 ### Lab 7 Airline Tweet Sentiment Classification: lab07_airline_sentiment_worked.ipynb
 -Built a three-class sentiment classifier on 14,285 deduplicated airline tweets with a leakage-safe 70/15/15 split. Tuned Multinomial Naive Bayes (unigrams + bigrams, α = 0.3) reached 0.698 macro F1 on the test set versus 0.259 for the majority baseline, with neutral tweets the weakest class.
+
+### Lab 8 Genetic Algorithm Regression and Reproducibility: lab08_genetic_algorithm_regression_worked.ipynb
+-Built a real-valued genetic algorithm (tournament selection, blend crossover, Gaussian mutation, elitism) and checked it on f(x) = (x−3)² before using it to fit a five-gene linear model (intercept + 4 coefficients) predicting insurance charges on 1,338 records with a standardised 80/20 split. Across ten seeds the GA reached a median test RMSE of 5829.38 (SD 0.002), matching exact least squares, so it found the optimum but did not beat it. Cutting the population from 100 to 40 more than halved the runtime but widened the spread across seeds (SD 0.026).
